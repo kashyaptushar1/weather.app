@@ -11,7 +11,7 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=
  async function checkWeather(city){
     if (city.toLowerCase() === "jaypee") {
         weatherIcon.src = "./photo.svg"
-        document.querySelector(".temp").innerHTML = "Hello Tushar";
+        document.querySelector(".temp").innerHTML = "Hello, I am tushar";
         document.querySelector(".city").innerHTML = "B.sc(c.s)";
         document.querySelector(".weather").style.display = "block";
         document.querySelector(".error").style.display = "none"  // This will print "bhag gandu" to the console
